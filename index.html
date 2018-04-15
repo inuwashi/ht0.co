@@ -36,6 +36,12 @@ Comprehensive TechOps solutions for small and mid-sized businesses">
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
 
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+
   </head>
 
   <body id="page-top">
@@ -94,6 +100,7 @@ Comprehensive TechOps solutions for small and mid-sized businesses">
 
 					  <section id="services">
       <div class="container">
+	 <a href="#contactus"> <div id="custom_sticky" class="stticky">Contact us</div></a>
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">Services</h2>
@@ -172,7 +179,7 @@ Failure to do so can lead to missed opportunities and loss of clients. We define
   </section>-->
 	
 	
- <section class="htcontact" class="text">
+ <section class="htcontact" id="contactus" class="text">
 	     <div class="container">
      <div class="row">
 	 	 <div class="col-lg-6 text-center">
@@ -244,6 +251,16 @@ Sunday: Closed
 	 <br/><br/>
     </section>
     <!-- Bootstrap core JavaScript -->
+	<script>
+$(window).on("scroll", function() {
+    if($(window).scrollTop() < 150) {
+        $('#custom_sticky').addClass("nodisplay");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $('#custom_sticky').removeClass("nodisplay");
+    }
+});
+</script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -253,8 +270,10 @@ Sunday: Closed
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
 
+    <script src="js/creative.min.js"></script>
+<script src="makeScroll.js"></script>
+																														
   </body>
 
 </html>
