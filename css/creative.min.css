@@ -11,6 +11,7 @@ hr{
     border-width:3px;
     border-color:black;
 }
+.color{font-size:120%;}
 .stticky {
     position: -webkit-sticky;
     position: fixed;
