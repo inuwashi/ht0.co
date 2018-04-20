@@ -20,17 +20,21 @@ hr{
 	font-size:14px;
 	margin:auto;
 	text-transform:uppercase;
-	padding-top: 25px;
+	padding-top: 40px;
 	text-align:center;
 	background:#0e1330;
-    width: 95px;
+    width: 150px;
 	border:3px solid #7796cb;
-	height:95px;
+	height:150px;
 	color:white;
 	border-radius:90%;
 	z-index:100;
 	
 }
+.stticky:hover{
+    color:#f05f40;
+}
+
 .nodisplay{display:none;}
 .secondservice{background:#f9f9f9;
 margin-top:40px;
@@ -157,14 +161,17 @@ font-family: 'Libre Baskerville', serif;
   top: 0;
 }
 .serviceinfo{
-	  background-image: url("information_img.png");
+      background-image: url("information_img.png");
+      background-size: cover;
 background-repeat:no-repeat;
 	  }
 .serviceSoftware{
+    background-size: cover;
 	  background-image: url("Software_img.png");
 	  background-repeat:no-repeat;
 }
 .serviceforensic{
+    background-size: cover;
 	  background-image: url("service_img.png");
 	  background-repeat:no-repeat;
 }
