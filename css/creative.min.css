@@ -16,7 +16,7 @@ hr{
     position: -webkit-sticky;
     position: fixed;
     bottom: 10px;
-	right:10px;
+	right:17px;
 	font-size:14px;
 	margin:auto;
 	text-transform:uppercase;
@@ -284,23 +284,36 @@ header.masthead p{
     }
 }
 @media (max-width:550px){
+    .parallaxhome{
+        /* The image used */
+        background-image: url("para.png");
+        /* Set a specific height */
+        height: 1250px;    background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+    background-size: cover;}
+    .parallax { 
+        /* The image used */
+        background-image: url("para.png");
+        /* Set a specific height */
+        height: 650px;    background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+    background-size: cover;}
 	
-	.parallaxhome{
-display:none;}
-	
-	#banner-top{    padding: 8rem 0;
+ 	#banner-top{    padding: 8rem 0;
 		
 	}
 	#about{    padding: 8rem 0;}
 #banner-top{background-image: url("about_img.png");}
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus{
-font-size: 1.5rem;
-    font-weight: 700;
+font-size: 1.3rem;
+    font-weight: 400;
     text-transform: uppercase;
     color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;}
+    padding-top: 20px;
+    padding-bottom: 20px;}
 	
 .menus{border-top:none;
 border-bottom: 1px solid whit;}
