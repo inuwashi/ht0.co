@@ -17,25 +17,29 @@ hr{
     position: fixed;
     bottom: 10px;
 	right:17px;
-	font-size:14px;
+	font-size:12px;
 	margin:auto;
 	text-transform:uppercase;
-	padding-top: 40px;
+	padding-top: 10px;
 	text-align:center;
 	background:#0e1330;
-    width: 150px;
-	border:3px solid #7796cb;
-	height:150px;
+    width: 120px;
+
+	height:100px;
 	color:white;
-	border-radius:90%;
+	border-radius:20%;
 	z-index:100;
 	
+}
+.full{
+    margin-left: auto !important;
+    max-width: 1075px;
 }
 .stticky:hover{
     color:#f05f40;
 }
 
-.nodisplay{display:none;}
+/*.nodisplay{display:none;}*/
 .secondservice{background:#f9f9f9;
 margin-top:40px;
 margin-bottom:40px;

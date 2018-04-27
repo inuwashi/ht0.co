@@ -1,4 +1,4 @@
-$(window).on("scroll", function() {
+$(window).on("scroll2", function() {
     if($(window).scrollTop() < 150) {
         $('#custom_sticky').addClass("nodisplay");
     } else {
